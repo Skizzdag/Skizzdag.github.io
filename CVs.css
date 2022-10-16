@@ -1,0 +1,67 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+#nav-bar{
+    padding: 15px;
+    z-index: 997;
+}
+
+#bg{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/profile.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bgcode{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+    justify-content: center;
+}
+#bg h2{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 56px;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+#cotent div{
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.fa-facebook-official {
+    
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+.fa-instagram {
+    
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+.fa-bitcoin {
+    color: orange;
+    padding: 10px;
+    text-decoration: none;
+}
+.fa-envelope{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
